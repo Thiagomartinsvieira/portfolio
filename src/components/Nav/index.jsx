@@ -1,5 +1,5 @@
 import { useEffect } from 'react'
-import './nav.css'
+import './Nav.css'
 import { NavLink } from "react-router-dom"
 
 const Nav = () => {

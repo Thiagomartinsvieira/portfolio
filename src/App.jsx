@@ -11,7 +11,7 @@ function App() {
       <BrowserRouter>
         <Nav />
         <Home />
-        <Footer />
+        
       </BrowserRouter>
     </div>
   )

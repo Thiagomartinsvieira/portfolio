@@ -4,6 +4,7 @@
 body {
   background: #272727;
   font-family: "Montserrat", sans-serif;
+  background-color: #FFFFFF;
 }
 
 .navMenu ul {
@@ -20,7 +21,7 @@ body {
   }
   
   .navMenu a {
-    color: #f6f4e6;
+    color: #2D2E32;
     text-decoration: none;
     font-size: 1.2em;
     text-transform: uppercase;

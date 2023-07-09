@@ -26,6 +26,7 @@ section {
     justify-content: center;
     gap: 1rem;
     background-color: #f9f9f9;
+    padding: 9.2rem;
 }
 
 .my-img {
@@ -37,6 +38,9 @@ section {
     margin-top: 2rem;
 }
 
+.social-media {
+  padding-top: 1rem;
+}
 
 .social-media a:hover{
   color: #147EFB;  
@@ -57,16 +61,23 @@ section {
     font-weight: 600;
 }
 
+.logos {
+  padding-top: 1rem;
+}
+
 .logos ul {
     display: flex;
     justify-content: center;
     align-items: center;
     list-style: none;
-    
   }
   
   .logos li {
     margin: 10px;
+  }
+
+  li:hover {
+    color: #E34F26;
   }
   
 

@@ -7,12 +7,21 @@ body {
   background-color: #FFFFFF;
 }
 
+.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
 .navMenu ul {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: flex-start;
     padding: 0;
+    background-color: #FFFFFF;
+    margin-top: auto;
   }
   
   .navMenu li {

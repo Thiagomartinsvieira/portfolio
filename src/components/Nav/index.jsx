@@ -8,7 +8,7 @@ const Nav = () => {
         
     }, [])
     return (
-        <nav className='navMenu'>
+        <nav className='navMenu fixed'>
             <ul>
                 <li>
                     <NavLink to='#'>Home</NavLink>

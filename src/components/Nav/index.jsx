@@ -14,7 +14,7 @@ const Nav = () => {
                     <NavLink to='#'>Home</NavLink>
                 </li>
                 <li>
-                    <NavLink to='#'>Stacks</NavLink>
+                    <NavLink to='#about'>About Me</NavLink>
                 </li>
                 <li>
                     <NavLink to='#'>Projects</NavLink>

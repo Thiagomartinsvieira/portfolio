@@ -1,11 +1,32 @@
+/* Footer.css */
 #footer {
-    width: 100%;
-    height: 48px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  #footer img {
-    width: 40px;
-    cursor: pointer;
-  }
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footerrc {
+  text-align: left;
+}
+
+.footerrc h3 {
+  margin: 0;
+}
+
+.footerrc-social {
+  text-align: right;
+}
+
+.footerrc-social a {
+  margin-left: 10px;
+}
+
+.footerrc-social a:first-child {
+  margin-left: 0;
+}

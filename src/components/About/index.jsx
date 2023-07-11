@@ -4,7 +4,7 @@ import { } from 'react-icons/'
 const About = () => {
     return (
         <div>
-            <section className="about">
+            <section id='about' className="about">
                 <div className='container-about'>
                     <img className="img-about" src="https://img.freepik.com/vetores-gratis/hacker-operando-uma-ilustracao-do-icone-dos-desenhos-animados-laptop-conceito-de-icone-de-tecnologia-isolado-estilo-flat-cartoon_138676-2387.jpg" alt="" />
 

@@ -48,34 +48,24 @@ div {
     font-size: 1.2rem;
 }
 
-.contact-icons {
+.contatc-itens {
     display: flex;
-    flex-wrap: wrap;
-    gap: 8rem;
-    margin-top: 6rem;
-    justify-content: center;
-}
-
-.contact-icon-box {
-    align-items: center;
-    display: flex;
-    gap: 1.5rem;
-}
-
-.contact-icon-box span {
-    background-color: #fff;
-    border-radius: 50%;
-    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
-    padding: 2.3rem;
 }
 
 .contact-info {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     gap: 0.5rem;
 }
 
 .contact-info p {
+    font-size: 1.4rem;
+    color: #767676;
+}
+
+.contact-info a {
     font-size: 1.4rem;
     color: #767676;
 }
@@ -94,3 +84,4 @@ div {
     font-size: 1.7rem;
     text-decoration: none;
 }
+

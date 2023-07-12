@@ -1,17 +1,43 @@
-import './About.css';
-import { } from 'react-icons/'
+import './projects.css'
 
-const Projects = () => {
+function Projects() {
     return (
         <div>
-            <section className="projects-content">
-                <h2>Projects</h2>                
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae perferendis reiciendis consequuntur ratione? Reiciendis quis non iusto molestias adipisci assumenda ipsam ipsa culpa. Sed, iusto quis repellendus ad tempora praesentium.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae perferendis reiciendis consequuntur ratione? Reiciendis quis non iusto molestias adipisci assumenda ipsam ipsa culpa. Sed, iusto quis repellendus ad tempora praesentium.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae perferendis reiciendis consequuntur ratione? Reiciendis quis non iusto molestias adipisci assumenda ipsam ipsa culpa. Sed, iusto quis repellendus ad tempora praesentium.</p>
+            <section id="project">
+
+                <h1>Projetos</h1>
+
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad,
+                    temporibus. Soluta dignissimos atque beatae, aut fugit inventore
+                    eveniet commodi pariatur delectus debitis dicta vel, ullam maxime, hic
+                    sint. Debitis, reprehenderit.
+                </p>
+
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad,
+                    temporibus. Soluta dignissimos atque beatae, aut fugit inventore
+                    eveniet commodi pariatur delectus debitis dicta vel, ullam maxime, hic
+                    sint. Debitis, reprehenderit.
+                </p>
+
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad,
+                    temporibus. Soluta dignissimos atque beatae, aut fugit inventore
+                    eveniet commodi pariatur delectus debitis dicta vel, ullam maxime, hic
+                    sint. Debitis, reprehenderit.
+                </p>
+
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad,
+                    temporibus. Soluta dignissimos atque beatae, aut fugit inventore
+                    eveniet commodi pariatur delectus debitis dicta vel, ullam maxime, hic
+                    sint. Debitis, reprehenderit.
+                </p>
+                
             </section>
         </div>
-    );
+    )
 }
 
-export default Projects;
+export default Projects

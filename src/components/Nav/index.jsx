@@ -1,8 +1,8 @@
-import { useEffect } from 'react';
-import './Nav.css';
+import { useEffect } from 'react'
+import './Nav.css'
 
 function Nav() {
-  useEffect(() => {}, []);
+  useEffect(() => {}, [])
 
   return (
     <nav className="navMenu fixed">
@@ -21,7 +21,7 @@ function Nav() {
         </li>
       </ul>
     </nav>
-  );
+  )
 }
 
-export default Nav;
+export default Nav

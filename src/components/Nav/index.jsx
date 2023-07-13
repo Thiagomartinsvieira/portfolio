@@ -1,31 +1,27 @@
-import { useEffect } from 'react'
-import './Nav.css'
-import { NavLink } from "react-router-dom"
+import { useEffect } from 'react';
+import './Nav.css';
 
-const Nav = () => {
+function Nav() {
+  useEffect(() => {}, []);
 
-    useEffect(() => {
-        
-    }, [])
-    return (
-        <nav className='navMenu fixed'>
-            <ul>
-                <li>
-                    <NavLink to='#'>Home</NavLink>
-                </li>
-                <li>
-                    <NavLink to='#about'>About Me</NavLink>
-                </li>
-                <li>
-                    <NavLink to='#'>Projects</NavLink>
-                </li>
-                <li>
-                    <NavLink to='#'>Contact</NavLink>
-                </li>
-            </ul>
-        </nav>
-
-    )
+  return (
+    <nav className="navMenu fixed">
+      <ul>
+        <li>
+          <a href="#home">Home</a>
+        </li>
+        <li>
+          <a href="#about">About Me</a>
+        </li>
+        <li>
+          <a href="#projects">Projects</a>
+        </li>
+        <li>
+          <a href="#contact">Contact</a>
+        </li>
+      </ul>
+    </nav>
+  );
 }
 
-export default Nav
+export default Nav;

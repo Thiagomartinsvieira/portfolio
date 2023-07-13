@@ -1,10 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap');
 
 body {
   background: #272727;
-  font-family: "Montserrat", sans-serif;
-  background-color: #FFFFFF;
+  font-family: 'Lato', sans-serif;
+  background-color: #ffffff;
 }
 
 .fixed {
@@ -15,33 +15,32 @@ body {
 }
 
 .navMenu ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: flex-start;
-    padding: 0;
-    background-color: #FFFFFF;
-    margin-top: auto;
-  }
-  
-  .navMenu li {
-    padding: 1.2rem;
-    list-style: none;
-  }
-  
-  .navMenu a {
-    color: #2D2E32;
-    text-decoration: none;
-    font-size: 1.2em;
-    text-transform: uppercase;
-    font-weight: 500;
-    display: flex;
-    align-items: center;
-    -webkit-transition: all 0.2s ease-in-out;
-    transition: all 0.2s ease-in-out;
-  }
-  
-  .navMenu a:hover {
-    color: #147EFB;
-  }
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0;
+  background-color: #ffffff;
+  margin-top: auto;
+}
 
+.navMenu li {
+  padding: 1.2rem;
+  list-style: none;
+}
+
+.navMenu a {
+  color: #2d2e32;
+  text-decoration: none;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.navMenu a:hover {
+  color: #147efb;
+}

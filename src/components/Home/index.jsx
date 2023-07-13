@@ -13,7 +13,7 @@ import '../../assets/html5.svg'
 function Home() {
   return (
     <div>
-      <section id='home'>
+      <section id="home">
         <img
           src="https://avatars.githubusercontent.com/u/111084586?v=4"
           alt=""
@@ -46,22 +46,22 @@ function Home() {
           <p>Tech Stack</p>
           <div className="logos">
             <ul>
-              <li className='icon-item'>
+              <li className="icon-item">
                 <SiHtml5 size={40} color="#E34F26" />
               </li>
-              <li className='icon-item'>
+              <li className="icon-item">
                 <SiCss3 size={40} color="#1572B6" />
               </li>
-              <li className='icon-item'>
+              <li className="icon-item">
                 <SiJavascript size={40} color="#F7DF1E" />
               </li>
-              <li className='icon-item'>
+              <li className="icon-item">
                 <SiTypescript size={40} color="#007ACC" />
               </li>
-              <li className='icon-item'>
+              <li className="icon-item">
                 <SiReact size={40} color="#61DAFB" />
               </li>
-              <li className='icon-item'>
+              <li className="icon-item">
                 <SiNextdotjs size={40} color="#000000" />
               </li>
             </ul>

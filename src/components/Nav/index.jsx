@@ -1,22 +1,39 @@
-import { useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
+import { FaBars } from 'react-icons/fa'
 import './Nav.css'
 
-const menuToggle = document.querySelector('.menu-toggle')
-const menuList = document.querySelector('.menu-list')
-
-menuToggle.addEventListener('click', function () {
-  menuList.classList.toggle('active')
-})
-
 function Nav() {
-  useEffect(() => { }, [])
+  const [isMenuOpen, setIsMenuOpen] = useState(false)
+
+  const handleMenuToggle = () => {
+    setIsMenuOpen(!isMenuOpen)
+  }
+
+  const handleMenuItemClick = () => {
+    setIsMenuOpen(false)
+  }
+
+  useEffect(() => {
+    document.addEventListener('click', handleMenuItemClick)
+    console.log('adiciona')
+
+    return () => {
+      document.removeEventListener('click', handleMenuItemClick)
+      console.log('remove')
+    }
+  }, [])
 
   return (
-    <nav className="navMenu fixed menu-hamburguer">
-      <button className="menu-toggle">
-        <span className="hamburguer-icon" />
+    <nav
+      className={`navbar fixed navbar-container ${isMenuOpen ? 'open' : ''}`}
+    >
+      <button
+        className={`menu-toggle ${isMenuOpen ? 'open' : ''}`}
+        onClick={handleMenuToggle}
+      >
+        <FaBars size={28} />
       </button>
-      <ul className="menu-list">
+      <ul className={`menu-list ${isMenuOpen ? '' : 'hidden'}`}>
         <li>
           <a href="#home">Home</a>
         </li>

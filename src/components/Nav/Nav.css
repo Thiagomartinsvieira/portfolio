@@ -1,35 +1,32 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap');
-
-body {
-  background: #272727;
-  font-family: 'Lato', sans-serif;
+.navbar {
   background-color: #ffffff;
-}
-
-.fixed {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
 }
 
-.navbar ul {
+.menu-toggle {
+  display: none;
+}
+
+.menu-list {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   padding: 0;
-  background-color: #ffffff;
-  margin-top: auto;
-}
-
-.navbar li {
-  padding: 1.2rem;
   list-style: none;
 }
 
-.navbar a {
+.menu-list li {
+  padding: 1.2rem;
+}
+
+.menu-list a {
   color: #2d2e32;
   text-decoration: none;
   font-size: 1.2em;
@@ -40,24 +37,11 @@ body {
   transition: color 0.2s ease-in-out;
 }
 
-.navbar a:hover {
+.menu-list a:hover {
   color: #147efb;
 }
 
-.menu-toggle {
-  display: none;
-}
-
 @media (max-width: 768px) {
-  .navbar ul {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .navbar li {
-    padding: 1rem;
-  }
-
   .menu-toggle {
     display: block;
     position: absolute;
@@ -67,14 +51,6 @@ body {
     border: none;
     cursor: pointer;
     z-index: 999;
-  }
-
-  .menu-toggle.open {
-    outline: none;
-  }
-
-  .menu-toggle:focus {
-    outline: none;
   }
 
   .menu-toggle.open .bars-icon {
@@ -89,12 +65,9 @@ body {
     transform: rotate(-45deg) translate(5px, -5px);
   }
 
-  .navbar-container.open {
-    height: 100vh;
-    transition: height 0.3s ease-in-out;
-  }
-
   .menu-list {
+    flex-direction: column;
+    align-items: center;
     display: none;
     width: 100%;
     text-align: center;
@@ -105,11 +78,7 @@ body {
   }
 
   .menu-list li {
-    padding: 1.2rem;
-    border-bottom: 1px solid #FFFFFF;
-  }
-
-  .menu-list a {
-    display: block;
+    padding: 1rem;
+    border-bottom: 1px solid #ffffff;
   }
 }

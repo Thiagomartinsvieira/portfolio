@@ -1,7 +1,6 @@
 import './About.css'
-import {} from 'react-icons/'
 
-const About = () => {
+function About() {
   return (
     <div>
       <section id="about" className="about">

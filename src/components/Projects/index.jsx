@@ -34,10 +34,10 @@ function Projects() {
                     </p>
                   </div>
                   <div className="project-links">
-                    <a target="_blank" href="#" rel="noreferrer">
+                    <a target="_blank" href="https://github.com/Thiagomartinsvieira/projeto-filmes" rel="noreferrer">
                       code <SiGithub />
                     </a>
-                    <a target="_blank" href="#" rel="noreferrer">
+                    <a target="_blank" href="https://movies-prime-flix.netlify.app/" rel="noreferrer">
                       Deploy <SiNetlify color="#6bd1d7" />
                     </a>
                   </div>

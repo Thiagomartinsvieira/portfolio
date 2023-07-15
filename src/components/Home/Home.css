@@ -99,3 +99,9 @@ section {
     position: static;
   }
 }
+
+@media (max-width: 768px) {
+  .social-media {
+    display: flex;
+  }
+}

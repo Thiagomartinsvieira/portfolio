@@ -74,6 +74,7 @@ section {
   justify-content: center;
   align-items: center;
   list-style: none;
+  padding-left: 0;
 }
 
 .logos li {

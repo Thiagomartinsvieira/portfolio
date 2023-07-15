@@ -44,3 +44,37 @@ body {
 .navMenu a:hover {
   color: #147efb;
 }
+
+.menu-toggle {
+  display: none;
+}
+
+@media (max-width: 552px) {
+  .navMenu li {
+    padding: .4rem;
+  }
+
+  .menu-toggle {
+    display: flex;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+
+  .hamburguer-icon {
+    display: block;
+    width: 30px;
+    height: 3px;
+    background: #000;
+    margin: 6px;
+  }
+
+  .menu-list {
+    display: none;
+  }
+
+  .menu-list.active {
+    display: block;
+  }
+}
+  

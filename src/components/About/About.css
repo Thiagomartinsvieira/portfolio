@@ -32,6 +32,25 @@
   margin: 10%;
 }
 
+@media (max-width: 1250px) and (min-width: 768px) {
+  .text-side-p {
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 1100px) and (min-width: 768px) {
+  .about {
+    display: flex;
+    flex-direction: column;
+    background-color: pink;
+  }
+
+  .img-about {
+    justify-content: center;
+    float: unset;
+  }
+}
 
 @media (max-width: 768px) {
   .about {
@@ -42,6 +61,7 @@
   .img-about {
     height: 50vh;
     width: 100vw;
+    max-width: 25rem;
     margin: 1px;
     margin-bottom: 1.5rem;
     float: none;

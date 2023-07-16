@@ -1,5 +1,5 @@
 import './Contact.css'
-import {} from 'react-icons/'
+import { } from 'react-icons/'
 
 function Contact() {
   return (

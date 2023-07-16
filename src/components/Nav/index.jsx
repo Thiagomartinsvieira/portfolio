@@ -9,23 +9,35 @@ function Nav() {
     setIsMenuOpen(!isMenuOpen);
   };
 
+  const handleMenuLinkClick = () => {
+    setIsMenuOpen(false);
+  };
+
   return (
     <nav className="navbar">
       <button className={`menu-toggle ${isMenuOpen ? 'open' : ''}`} onClick={handleMenuToggle}>
         <FaBars size={28} />
       </button>
-      <ul className={`menu-list ${isMenuOpen ? '' : 'hidden'}`}>
+      <ul className={`menu-list ${isMenuOpen ? 'open' : ''}`}>
         <li>
-          <a href="#home">Home</a>
+          <a href="#home" onClick={handleMenuLinkClick}>
+            Home
+          </a>
         </li>
         <li>
-          <a href="#about">About Me</a>
+          <a href="#about" onClick={handleMenuLinkClick}>
+            About Me
+          </a>
         </li>
         <li>
-          <a href="#projects">Projects</a>
+          <a href="#projects" onClick={handleMenuLinkClick}>
+            Projects
+          </a>
         </li>
         <li>
-          <a href="#contact">Contact</a>
+          <a href="#contact" onClick={handleMenuLinkClick}>
+            Contact
+          </a>
         </li>
       </ul>
     </nav>

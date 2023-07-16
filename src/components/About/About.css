@@ -43,7 +43,6 @@
   .about {
     display: flex;
     flex-direction: column;
-    background-color: pink;
   }
 
   .img-about {

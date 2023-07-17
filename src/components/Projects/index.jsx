@@ -97,7 +97,7 @@ function Projects() {
                   </a>
                 </div>
                 <div className="project-details">
-                  <h3 className="project-name">Gerador de Senha</h3>
+                  <h3 className="project-name">Password generator</h3>
                   <p className="project-description">
                     "Lorem ipsum dolor sit amet. Aut repudiandae atque ea
                     exercitationem accusamus non modi dolores! Et labore
@@ -128,7 +128,7 @@ function Projects() {
                   </a>
                 </div>
                 <div className="project-details">
-                  <h3 className="project-name">Calculadora</h3>
+                  <h3 className="project-name">Calculator</h3>
                   <p className="project-description">
                     "Lorem ipsum dolor sit amet. Aut repudiandae atque ea
                     exercitationem accusamus non modi dolores! Et labore
@@ -194,11 +194,11 @@ function Projects() {
               <div className="project-card project-card-1">
                 <div className="project-image">
                   <a target="_blank" href="#" rel="noreferrer">
-                    <img src="src/assets/prime-flix.png" alt="website" />
+                    <img src="src/assets/relogio-digital.png" alt="website" />
                   </a>
                 </div>
                 <div className="project-details">
-                  <h3 className="project-name">Prime Flix</h3>
+                  <h3 className="project-name">Digital Watch</h3>
                   <p className="project-description">
                     "Lorem ipsum dolor sit amet. Aut repudiandae atque ea
                     exercitationem accusamus non modi dolores! Et labore
@@ -208,15 +208,15 @@ function Projects() {
                   </p>
                   <div className="project-stack">
                     <p>
-                      <SiReact size={30} color="#61DAFB" />
+                      <SiJavascript size={30} color="#F7DF1E" />
                     </p>
                   </div>
                   <div className="project-links">
-                    <a target="_blank" href="#" rel="noreferrer">
+                    <a target="_blank" href="https://github.com/Thiagomartinsvieira/relogio-digital" rel="noreferrer">
                       code <SiGithub />
                     </a>
-                    <a target="_blank" href="#" rel="noreferrer">
-                      Deploy <SiNetlify color="#6bd1d7" />
+                    <a target="_blank" href="https://relogio-digital-two-delta.vercel.app/" rel="noreferrer">
+                      Deploy <SiVercel color="#000000" />
                     </a>
                   </div>
                 </div>

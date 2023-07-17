@@ -1,6 +1,12 @@
 import React from 'react'
 import './projects.css'
-import { SiGithub, SiNetlify, SiReact, SiWeb3Dotjs } from 'react-icons/si'
+import {
+  SiGithub,
+  SiJavascript,
+  SiNetlify,
+  SiReact,
+  SiVercel,
+} from 'react-icons/si'
 
 function Projects() {
   return (
@@ -34,11 +40,121 @@ function Projects() {
                     </p>
                   </div>
                   <div className="project-links">
-                    <a target="_blank" href="https://github.com/Thiagomartinsvieira/projeto-filmes" rel="noreferrer">
+                    <a
+                      target="_blank"
+                      href="https://github.com/Thiagomartinsvieira/projeto-filmes"
+                      rel="noreferrer"
+                    >
                       code <SiGithub />
                     </a>
-                    <a target="_blank" href="https://movies-prime-flix.netlify.app/" rel="noreferrer">
+                    <a
+                      target="_blank"
+                      href="https://movies-prime-flix.netlify.app/"
+                      rel="noreferrer"
+                    >
                       Deploy <SiNetlify color="#6bd1d7" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div className="project-card project-card-1">
+                <div className="project-image">
+                  <a target="_blank" href="#" rel="noreferrer">
+                    <img src="src/assets/prime-flix.png" alt="website" />
+                  </a>
+                </div>
+                <div className="project-details">
+                  <h3 className="project-name">Prime Flix</h3>
+                  <p className="project-description">
+                    "Lorem ipsum dolor sit amet. Aut repudiandae atque ea
+                    exercitationem accusamus non modi dolores! Et labore
+                    officiis et libero temporibus aut voluptatum tempore. In
+                    obcaecati dolore aut iure dolores cum repellat beatae qui
+                    natus sunt."
+                  </p>
+                  <div className="project-stack">
+                    <p>
+                      <SiReact size={30} color="#61DAFB" />
+                    </p>
+                  </div>
+
+                  <div className="project-links">
+                    <a target="_blank" href="#" rel="noreferrer">
+                      code <SiGithub />
+                    </a>
+                    <a target="_blank" href="#" rel="noreferrer">
+                      Deploy <SiNetlify color="#6bd1d7" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div className="project-card project-card-1">
+                <div className="project-image">
+                  <a target="_blank" href="#" rel="noreferrer">
+                    <img src="src/assets/gerador-de-senha.png" alt="website" />
+                  </a>
+                </div>
+                <div className="project-details">
+                  <h3 className="project-name">Gerador de Senha</h3>
+                  <p className="project-description">
+                    "Lorem ipsum dolor sit amet. Aut repudiandae atque ea
+                    exercitationem accusamus non modi dolores! Et labore
+                    officiis et libero temporibus aut voluptatum tempore. In
+                    obcaecati dolore aut iure dolores cum repellat beatae qui
+                    natus sunt."
+                  </p>
+                  <div className="project-stack">
+                    <p>
+                      <SiJavascript size={30} color="#F7DF1E" />
+                    </p>
+                  </div>
+                  <div className="project-links">
+                    <a target="_blank" href="https://github.com/Thiagomartinsvieira/Gerador_de_senha" rel="noreferrer">
+                      code <SiGithub />
+                    </a>
+                    <a target="_blank" href="https://gerador-de-senha-theta-one.vercel.app/" rel="noreferrer">
+                      Deploy <SiVercel color="#000000" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div className="project-card project-card-1">
+                <div className="project-image">
+                  <a target="_blank" href="#" rel="noreferrer">
+                    <img src="src/assets/calculadora.png" alt="website" />
+                  </a>
+                </div>
+                <div className="project-details">
+                  <h3 className="project-name">Calculadora</h3>
+                  <p className="project-description">
+                    "Lorem ipsum dolor sit amet. Aut repudiandae atque ea
+                    exercitationem accusamus non modi dolores! Et labore
+                    officiis et libero temporibus aut voluptatum tempore. In
+                    obcaecati dolore aut iure dolores cum repellat beatae qui
+                    natus sunt."
+                  </p>
+                  <div className="project-stack">
+                    <p>
+                      <SiJavascript size={30} color="#F7DF1E" />
+                    </p>
+                  </div>
+                  <div className="project-links">
+                    <a
+                      target="_blank"
+                      href="https://github.com/Thiagomartinsvieira/Calculadora"
+                      rel="noreferrer"
+                    >
+                      code <SiGithub />
+                    </a>
+                    <a
+                      target="_blank"
+                      href="https://calculadora-one-sand.vercel.app/"
+                      rel="noreferrer"
+                    >
+                      Deploy <SiVercel color="#000000" />
                     </a>
                   </div>
                 </div>
@@ -105,103 +221,6 @@ function Projects() {
                   </div>
                 </div>
               </div>
-
-              <div className="project-card project-card-1">
-                <div className="project-image">
-                  <a target="_blank" href="#" rel="noreferrer">
-                    <img src="src/assets/prime-flix.png" alt="website" />
-                  </a>
-                </div>
-                <div className="project-details">
-                  <h3 className="project-name">Prime Flix</h3>
-                  <p className="project-description">
-                    "Lorem ipsum dolor sit amet. Aut repudiandae atque ea
-                    exercitationem accusamus non modi dolores! Et labore
-                    officiis et libero temporibus aut voluptatum tempore. In
-                    obcaecati dolore aut iure dolores cum repellat beatae qui
-                    natus sunt."
-                  </p>
-                  <div className="project-stack">
-                    <p>
-                      <SiReact size={30} color="#61DAFB" />
-                    </p>
-                  </div>
-                  <div className="project-links">
-                    <a target="_blank" href="#" rel="noreferrer">
-                      code <SiGithub />
-                    </a>
-                    <a target="_blank" href="#" rel="noreferrer">
-                      Deploy <SiNetlify color="#6bd1d7" />
-                    </a>
-                  </div>
-                </div>
-              </div>
-
-              <div className="project-card project-card-1">
-                <div className="project-image">
-                  <a target="_blank" href="#" rel="noreferrer">
-                    <img src="src/assets/prime-flix.png" alt="website" />
-                  </a>
-                </div>
-                <div className="project-details">
-                  <h3 className="project-name">Prime Flix</h3>
-                  <p className="project-description">
-                    "Lorem ipsum dolor sit amet. Aut repudiandae atque ea
-                    exercitationem accusamus non modi dolores! Et labore
-                    officiis et libero temporibus aut voluptatum tempore. In
-                    obcaecati dolore aut iure dolores cum repellat beatae qui
-                    natus sunt."
-                  </p>
-                  <div className="project-stack">
-                    <p>
-                      <SiReact size={30} color="#61DAFB" />
-                    </p>
-                  </div>
-                  <div className="project-links">
-                    <a target="_blank" href="#" rel="noreferrer">
-                      code <SiGithub />
-                    </a>
-                    <a target="_blank" href="#" rel="noreferrer">
-                      Deploy <SiNetlify color="#6bd1d7" />
-                    </a>
-                  </div>
-                </div>
-              </div>
-
-
-              <div className="project-card project-card-1">
-                <div className="project-image">
-                  <a target="_blank" href="#" rel="noreferrer">
-                    <img src="src/assets/prime-flix.png" alt="website" />
-                  </a>
-                </div>
-                <div className="project-details">
-                  <h3 className="project-name">Prime Flix</h3>
-                  <p className="project-description">
-                    "Lorem ipsum dolor sit amet. Aut repudiandae atque ea
-                    exercitationem accusamus non modi dolores! Et labore
-                    officiis et libero temporibus aut voluptatum tempore. In
-                    obcaecati dolore aut iure dolores cum repellat beatae qui
-                    natus sunt."
-                  </p>
-                  <div className="project-stack">
-                    <p>
-                      <SiReact size={30} color="#61DAFB" />
-                    </p>
-                  </div>
-                  <div className="project-links">
-                    <a target="_blank" href="#" rel="noreferrer">
-                      code <SiGithub />
-                    </a>
-                    <a target="_blank" href="#" rel="noreferrer">
-                      Deploy <SiNetlify color="#6bd1d7" />
-                    </a>
-                  </div>
-                </div>
-              </div>
-
-
-
             </div>
           </div>
         </div>

@@ -1,7 +1,9 @@
 import React from 'react'
 import './projects.css'
 import {
+  SiCss3,
   SiGithub,
+  SiHtml5,
   SiJavascript,
   SiNetlify,
   SiReact,
@@ -163,11 +165,11 @@ function Projects() {
               <div className="project-card project-card-1">
                 <div className="project-image">
                   <a target="_blank" href="#" rel="noreferrer">
-                    <img src="src/assets/prime-flix.png" alt="website" />
+                    <img src="src/assets/site-passagens.png" alt="website" />
                   </a>
                 </div>
                 <div className="project-details">
-                  <h3 className="project-name">Prime Flix</h3>
+                  <h3 className="project-name">Bus Ticket WebSite</h3>
                   <p className="project-description">
                     "Lorem ipsum dolor sit amet. Aut repudiandae atque ea
                     exercitationem accusamus non modi dolores! Et labore
@@ -177,15 +179,16 @@ function Projects() {
                   </p>
                   <div className="project-stack">
                     <p>
-                      <SiReact size={30} color="#61DAFB" />
+                      <SiHtml5 size={30} color="#e34c26" />
+                      <SiCss3 size={30} color="#264de4" />
                     </p>
                   </div>
                   <div className="project-links">
-                    <a target="_blank" href="#" rel="noreferrer">
+                    <a target="_blank" href="https://github.com/Thiagomartinsvieira/siteDePassagens" rel="noreferrer">
                       code <SiGithub />
                     </a>
-                    <a target="_blank" href="#" rel="noreferrer">
-                      Deploy <SiNetlify color="#6bd1d7" />
+                    <a target="_blank" href="https://site-de-passagens.vercel.app/" rel="noreferrer">
+                      Deploy <SiVercel color="#000000" />
                     </a>
                   </div>
                 </div>

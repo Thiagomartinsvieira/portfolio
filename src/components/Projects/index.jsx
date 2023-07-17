@@ -23,7 +23,11 @@ function Projects() {
             <div className="projects-grid">
               <div className="project-card project-card-1">
                 <div className="project-image">
-                  <a target="_blank" href="#" rel="noreferrer">
+                  <a
+                    target="_blank"
+                    href="https://movies-prime-flix.netlify.app/"
+                    rel="noreferrer"
+                  >
                     <img src="src/assets/prime-flix.png" alt="website" />
                   </a>
                 </div>
@@ -94,7 +98,11 @@ function Projects() {
 
               <div className="project-card project-card-1">
                 <div className="project-image">
-                  <a target="_blank" href="#" rel="noreferrer">
+                  <a
+                    target="_blank"
+                    href="https://gerador-de-senha-theta-one.vercel.app/"
+                    rel="noreferrer"
+                  >
                     <img src="src/assets/gerador-de-senha.png" alt="website" />
                   </a>
                 </div>
@@ -109,14 +117,24 @@ function Projects() {
                   </p>
                   <div className="project-stack">
                     <p>
+                      <SiHtml5 size={30} color="#e34c26" />
+                      <SiCss3 size={30} color="#264de4" />
                       <SiJavascript size={30} color="#F7DF1E" />
                     </p>
                   </div>
                   <div className="project-links">
-                    <a target="_blank" href="https://github.com/Thiagomartinsvieira/Gerador_de_senha" rel="noreferrer">
+                    <a
+                      target="_blank"
+                      href="https://github.com/Thiagomartinsvieira/Gerador_de_senha"
+                      rel="noreferrer"
+                    >
                       code <SiGithub />
                     </a>
-                    <a target="_blank" href="https://gerador-de-senha-theta-one.vercel.app/" rel="noreferrer">
+                    <a
+                      target="_blank"
+                      href="https://gerador-de-senha-theta-one.vercel.app/"
+                      rel="noreferrer"
+                    >
                       Deploy <SiVercel color="#000000" />
                     </a>
                   </div>
@@ -125,7 +143,11 @@ function Projects() {
 
               <div className="project-card project-card-1">
                 <div className="project-image">
-                  <a target="_blank" href="#" rel="noreferrer">
+                  <a
+                    target="_blank"
+                    href="https://calculadora-one-sand.vercel.app/"
+                    rel="noreferrer"
+                  >
                     <img src="src/assets/calculadora.png" alt="website" />
                   </a>
                 </div>
@@ -140,6 +162,8 @@ function Projects() {
                   </p>
                   <div className="project-stack">
                     <p>
+                      <SiHtml5 size={30} color="#e34c26" />
+                      <SiCss3 size={30} color="#264de4" />
                       <SiJavascript size={30} color="#F7DF1E" />
                     </p>
                   </div>
@@ -164,7 +188,11 @@ function Projects() {
 
               <div className="project-card project-card-1">
                 <div className="project-image">
-                  <a target="_blank" href="#" rel="noreferrer">
+                  <a
+                    target="_blank"
+                    href="https://site-de-passagens.vercel.app/"
+                    rel="noreferrer"
+                  >
                     <img src="src/assets/site-passagens.png" alt="website" />
                   </a>
                 </div>
@@ -184,10 +212,18 @@ function Projects() {
                     </p>
                   </div>
                   <div className="project-links">
-                    <a target="_blank" href="https://github.com/Thiagomartinsvieira/siteDePassagens" rel="noreferrer">
+                    <a
+                      target="_blank"
+                      href="https://github.com/Thiagomartinsvieira/siteDePassagens"
+                      rel="noreferrer"
+                    >
                       code <SiGithub />
                     </a>
-                    <a target="_blank" href="https://site-de-passagens.vercel.app/" rel="noreferrer">
+                    <a
+                      target="_blank"
+                      href="https://site-de-passagens.vercel.app/"
+                      rel="noreferrer"
+                    >
                       Deploy <SiVercel color="#000000" />
                     </a>
                   </div>
@@ -196,7 +232,11 @@ function Projects() {
 
               <div className="project-card project-card-1">
                 <div className="project-image">
-                  <a target="_blank" href="#" rel="noreferrer">
+                  <a
+                    target="_blank"
+                    href="https://relogio-digital-two-delta.vercel.app/"
+                    rel="noreferrer"
+                  >
                     <img src="src/assets/relogio-digital.png" alt="website" />
                   </a>
                 </div>
@@ -211,14 +251,24 @@ function Projects() {
                   </p>
                   <div className="project-stack">
                     <p>
+                      <SiHtml5 size={30} color="#e34c26" />
+                      <SiCss3 size={30} color="#264de4" />
                       <SiJavascript size={30} color="#F7DF1E" />
                     </p>
                   </div>
                   <div className="project-links">
-                    <a target="_blank" href="https://github.com/Thiagomartinsvieira/relogio-digital" rel="noreferrer">
+                    <a
+                      target="_blank"
+                      href="https://github.com/Thiagomartinsvieira/relogio-digital"
+                      rel="noreferrer"
+                    >
                       code <SiGithub />
                     </a>
-                    <a target="_blank" href="https://relogio-digital-two-delta.vercel.app/" rel="noreferrer">
+                    <a
+                      target="_blank"
+                      href="https://relogio-digital-two-delta.vercel.app/"
+                      rel="noreferrer"
+                    >
                       Deploy <SiVercel color="#000000" />
                     </a>
                   </div>

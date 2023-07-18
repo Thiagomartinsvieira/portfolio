@@ -28,10 +28,7 @@ function Projects() {
                     href="https://movies-prime-flix.netlify.app/"
                     rel="noreferrer"
                   >
-                    <img
-                      src="src/assets/prime-flix.webp"
-                      alt="website"
-                    />
+                    <img src="src/assets/prime-flix.webp" alt="website" />
                   </a>
                 </div>
                 <div className="project-details">
@@ -157,11 +154,12 @@ function Projects() {
                 <div className="project-details">
                   <h3 className="project-name">Calculator</h3>
                   <p className="project-description">
-                    "Lorem ipsum dolor sit amet. Aut repudiandae atque ea
-                    exercitationem accusamus non modi dolores! Et labore
-                    officiis et libero temporibus aut voluptatum tempore. In
-                    obcaecati dolore aut iure dolores cum repellat beatae qui
-                    natus sunt."
+                    "Simple calculator developed with HTML5, CSS3 and
+                    JavaScript. The calculator has an intuitive interface,
+                    allowing to add numbers and operators to the result, clear
+                    it and perform calculations. It is an efficient
+                    implementation and interactive, showcasing developing skills
+                    frontend."
                   </p>
                   <div className="project-stack">
                     <p>

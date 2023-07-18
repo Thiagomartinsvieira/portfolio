@@ -18,7 +18,8 @@ function Projects() {
           <div className="projects-content">
             <p className="projects-subtitle">Portfolio</p>
             <h3 className="projects-title">
-              Each project is a unique piece of development 🧩
+              As with a well-tuned gear, every part is critical. for web
+              development to flow smoothly. 🧩
             </h3>
             <div className="projects-grid">
               <div className="project-card project-card-1">
@@ -60,38 +61,6 @@ function Projects() {
                       href="https://movies-prime-flix.netlify.app/"
                       rel="noreferrer"
                     >
-                      Deploy <SiNetlify color="#6bd1d7" />
-                    </a>
-                  </div>
-                </div>
-              </div>
-
-              <div className="project-card project-card-1">
-                <div className="project-image">
-                  <a target="_blank" href="#" rel="noreferrer">
-                    <img src="src/assets/prime-flix.webp" alt="website" />
-                  </a>
-                </div>
-                <div className="project-details">
-                  <h3 className="project-name">Prime Flix</h3>
-                  <p className="project-description">
-                    "Lorem ipsum dolor sit amet. Aut repudiandae atque ea
-                    exercitationem accusamus non modi dolores! Et labore
-                    officiis et libero temporibus aut voluptatum tempore. In
-                    obcaecati dolore aut iure dolores cum repellat beatae qui
-                    natus sunt."
-                  </p>
-                  <div className="project-stack">
-                    <p>
-                      <SiReact size={30} color="#61DAFB" />
-                    </p>
-                  </div>
-
-                  <div className="project-links">
-                    <a target="_blank" href="#" rel="noreferrer">
-                      code <SiGithub />
-                    </a>
-                    <a target="_blank" href="#" rel="noreferrer">
                       Deploy <SiNetlify color="#6bd1d7" />
                     </a>
                   </div>
@@ -285,6 +254,50 @@ function Projects() {
                       rel="noreferrer"
                     >
                       Deploy <SiVercel color="#000000" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div className="project-card project-card-1">
+                <div className="project-image">
+                  <a
+                    target="_blank"
+                    href="https://login-thiago-dev.netlify.app/"
+                    rel="noreferrer"
+                  >
+                    <img src="src/assets/login.webp" alt="website" />
+                  </a>
+                </div>
+                <div className="project-details">
+                  <h3 className="project-name">Login screen</h3>
+                  <p className="project-description">
+                    "My first project that I did in a responsive way deals with
+                    a login page made with HTML5 and CSS3, I applied a
+                    transition effect that has a small delay that make format
+                    change based on screen size"
+                  </p>
+                  <div className="project-stack">
+                    <p>
+                      <SiHtml5 size={30} color="#e34c26" />
+                      <SiCss3 size={30} color="#264de4" />
+                    </p>
+                  </div>
+
+                  <div className="project-links">
+                    <a
+                      target="_blank"
+                      href="https://github.com/Thiagomartinsvieira/Projeto-login"
+                      rel="noreferrer"
+                    >
+                      code <SiGithub />
+                    </a>
+                    <a
+                      target="_blank"
+                      href="https://login-thiago-dev.netlify.app/"
+                      rel="noreferrer"
+                    >
+                      Deploy <SiNetlify color="#6bd1d7" />
                     </a>
                   </div>
                 </div>

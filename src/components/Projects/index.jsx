@@ -28,7 +28,7 @@ function Projects() {
                     href="https://movies-prime-flix.netlify.app/"
                     rel="noreferrer"
                   >
-                    <img src="src/assets/prime-flix.png" alt="website" />
+                    <img src="src/assets/prime-flix.webp" alt="website" />
                   </a>
                 </div>
                 <div className="project-details">
@@ -67,7 +67,7 @@ function Projects() {
               <div className="project-card project-card-1">
                 <div className="project-image">
                   <a target="_blank" href="#" rel="noreferrer">
-                    <img src="src/assets/prime-flix.png" alt="website" />
+                    <img src="src/assets/prime-flix.webp" alt="website" />
                   </a>
                 </div>
                 <div className="project-details">
@@ -103,7 +103,7 @@ function Projects() {
                     href="https://gerador-de-senha-theta-one.vercel.app/"
                     rel="noreferrer"
                   >
-                    <img src="src/assets/gerador-de-senha.png" alt="website" />
+                    <img src="src/assets/gerador-de-senha.webp" alt="website" />
                   </a>
                 </div>
                 <div className="project-details">
@@ -193,7 +193,7 @@ function Projects() {
                     href="https://site-de-passagens.vercel.app/"
                     rel="noreferrer"
                   >
-                    <img src="src/assets/site-passagens.png" alt="website" />
+                    <img src="src/assets/site-passagens.webp" alt="website" />
                   </a>
                 </div>
                 <div className="project-details">
@@ -237,7 +237,7 @@ function Projects() {
                     href="https://relogio-digital-two-delta.vercel.app/"
                     rel="noreferrer"
                   >
-                    <img src="src/assets/relogio-digital.png" alt="website" />
+                    <img src="src/assets/relogio-digital.webp" alt="website" />
                   </a>
                 </div>
                 <div className="project-details">

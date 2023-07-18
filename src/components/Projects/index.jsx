@@ -148,7 +148,7 @@ function Projects() {
                     href="https://calculadora-one-sand.vercel.app/"
                     rel="noreferrer"
                   >
-                    <img src="src/assets/calculadora.png" alt="website" />
+                    <img src="src/assets/calculadora.webp" alt="website" />
                   </a>
                 </div>
                 <div className="project-details">

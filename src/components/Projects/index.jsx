@@ -28,7 +28,10 @@ function Projects() {
                     href="https://movies-prime-flix.netlify.app/"
                     rel="noreferrer"
                   >
-                    <img src="src/assets/prime-flix.webp" alt="website" />
+                    <img
+                      src="public/src/assets/prime-flix.webp"
+                      alt="website"
+                    />
                   </a>
                 </div>
                 <div className="project-details">

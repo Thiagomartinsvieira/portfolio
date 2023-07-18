@@ -29,7 +29,7 @@ function Projects() {
                     rel="noreferrer"
                   >
                     <img
-                      src="public/src/assets/prime-flix.webp"
+                      src="src/assets/prime-flix.webp"
                       alt="website"
                     />
                   </a>

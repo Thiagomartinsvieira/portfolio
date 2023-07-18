@@ -1,3 +1,7 @@
+strong {
+  color: #147EFB;
+}
+
 .about {
   display: flex;
   flex-direction: row;

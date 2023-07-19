@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap');
+
 .navbar {
   background-color: #ffffff;
   display: flex;
@@ -29,6 +31,7 @@
 .menu-list a {
   color: #2d2e32;
   text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
   font-size: 1.2em;
   text-transform: uppercase;
   font-weight: 500;

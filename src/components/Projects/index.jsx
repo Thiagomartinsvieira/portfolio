@@ -7,6 +7,7 @@ import {
   SiJavascript,
   SiNetlify,
   SiReact,
+  SiTypescript,
   SiVercel,
 } from 'react-icons/si'
 
@@ -26,12 +27,58 @@ function Projects() {
                 <div className="project-image">
                   <a
                     target="_blank"
+                    href="https://site-de-passagens.vercel.app/"
+                    rel="noreferrer"
+                  >
+                    <img src="src/assets/site-passagens.webp" alt="website" />
+                  </a>
+                </div>
+                <div className="project-details">
+                  <h3 className="project-name">Bus Ticket WebSite</h3>
+                  <p className="project-description">
+                    "Version 2 of the Auto Viação Vieira Website: Fictitious
+                    project developed with React and TypeScript. Intuitive
+                    interface, improved navigation, online ticket purchase,
+                    attractive promotions and emphasis on safety and comfort.
+                    Demonstration of skills in front-end development and
+                    creation of responsive interfaces."
+                  </p>
+                  <div className="project-stack">
+                    <p>
+                      <SiReact size={30} color="#61DAFB" />
+                      <SiTypescript size={30} color="#007ACC" />
+                    </p>
+                  </div>
+                  <div className="project-links">
+                    <a
+                      target="_blank"
+                      href="https://github.com/Thiagomartinsvieira/siteDePassagens"
+                      rel="noreferrer"
+                    >
+                      code <SiGithub />
+                    </a>
+                    <a
+                      target="_blank"
+                      href="https://site-de-passagens.vercel.app/"
+                      rel="noreferrer"
+                    >
+                      Deploy <SiVercel color="#000000" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div className="project-card project-card-1">
+                <div className="project-image">
+                  <a
+                    target="_blank"
                     href="https://movies-prime-flix.netlify.app/"
                     rel="noreferrer"
                   >
                     <img src="src/assets/prime-flix.webp" alt="website" />
                   </a>
                 </div>
+
                 <div className="project-details">
                   <h3 className="project-name">Prime Flix</h3>
                   <p className="project-description">
@@ -107,56 +154,6 @@ function Projects() {
                     <a
                       target="_blank"
                       href="https://gerador-de-senha-theta-one.vercel.app/"
-                      rel="noreferrer"
-                    >
-                      Deploy <SiVercel color="#000000" />
-                    </a>
-                  </div>
-                </div>
-              </div>
-
-              <div className="project-card project-card-1">
-                <div className="project-image">
-                  <a
-                    target="_blank"
-                    href="https://site-de-passagens.vercel.app/"
-                    rel="noreferrer"
-                  >
-                    <img src="src/assets/site-passagens.webp" alt="website" />
-                  </a>
-                </div>
-                <div className="project-details">
-                  <h3 className="project-name">Bus Ticket WebSite</h3>
-                  <p className="project-description">
-                    "Website of Auto Viação Vieira, a fictitious company,
-                    developed with HTML5, CSS3 and JavaScript. The site presents
-                    information about the fictitious company, its road transport
-                    services, available destinations, possibility of purchasing
-                    tickets online, benefits of traveling by bus and promotions.
-                    The interface is intuitive, with a navigation menu and
-                    search form for origin and destination of trips. The site
-                    highlights the security, comfort and unique experience
-                    provided by the fictitious company. It is a fictional
-                    project that demonstrates skills in front-end development
-                    and creation of responsive interfaces."
-                  </p>
-                  <div className="project-stack">
-                    <p>
-                      <SiHtml5 size={30} color="#e34c26" />
-                      <SiCss3 size={30} color="#264de4" />
-                    </p>
-                  </div>
-                  <div className="project-links">
-                    <a
-                      target="_blank"
-                      href="https://github.com/Thiagomartinsvieira/siteDePassagens"
-                      rel="noreferrer"
-                    >
-                      code <SiGithub />
-                    </a>
-                    <a
-                      target="_blank"
-                      href="https://site-de-passagens.vercel.app/"
                       rel="noreferrer"
                     >
                       Deploy <SiVercel color="#000000" />

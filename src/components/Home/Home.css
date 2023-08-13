@@ -10,10 +10,6 @@ h1 {
   color: #2d2e32;
 }
 
- h2 {
-  color: burlywood;
-}
-
 .home h2 {
   text-align: center;
   margin-bottom: 20px;
@@ -95,15 +91,11 @@ section {
 
 .App.dark-theme .home {
   background-color: #181A1B; 
-  color: #ffffff;
-}
-
-.App.dark-theme .home h1{
   color: #ffffff; 
 }
 
-.App.dark-theme .home h2 {
-  color: #ffffff;
+.App.dark-theme .home h1,.App.dark-theme .home  h2{
+  color: #ffffff; 
 }
 
 .App.dark-theme p {
@@ -113,6 +105,8 @@ section {
 .App.dark-theme a {
   color: #ffffff; 
 }
+
+
 
 @media screen and (max-width: 768px) {
   .my-img {

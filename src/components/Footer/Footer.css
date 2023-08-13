@@ -35,6 +35,11 @@
   opacity: 0.7;
 }
 
+.App.dark-theme #footer {
+  background-color: #181A1B; /* Fundo escuro para a seção de contato no tema escuro */
+  color: #ffffff; /* Texto branco no tema escuro */
+}
+
 
 @media (max-width: 768px) {
   .container {

@@ -67,6 +67,18 @@
   background-color: transparent;
 }
 
+.App.dark-theme .navbar {
+  background-color: #333333; /* Fundo escuro para a seção de contato no tema escuro */
+  color: #ffffff; /* Texto branco no tema escuro */
+}
+
+.App.dark-theme .menu-toggle{
+  color: #ffffff;
+}
+
+.App.dark-theme .darkmode {
+  color: #ffffff;
+}
 
 @media (max-width: 768px) {
   .menu-toggle {

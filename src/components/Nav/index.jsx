@@ -12,9 +12,8 @@ function MenuItem({ href, onClick, label }) {
   )
 }
 
-function Nav() {
+function Nav({ handleThemeToggle, isDarkTheme }) {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
-  const [isDarkTheme, setIsDarkTheme] = useState(false)
 
   const handleMenuToggle = () => {
     setIsMenuOpen(!isMenuOpen)
@@ -22,10 +21,6 @@ function Nav() {
 
   const handleMenuLinkClick = () => {
     setIsMenuOpen(false)
-  }
-
-  const handleThemeToggle = () => {
-    setIsDarkTheme(!isDarkTheme)
   }
 
   return (

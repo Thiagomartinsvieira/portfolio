@@ -93,6 +93,22 @@ div {
   transform: scale(1.1);
 }
 
+/* Contact.css */
+/* Estilos para o tema escuro */
+.App.dark-theme .contact {
+  background-color: #333333; /* Fundo escuro para a seção de contato no tema escuro */
+  color: #ffffff; /* Texto branco no tema escuro */
+}
+
+.App.dark-theme .contact h3 {
+  color: #ffffff; /* Títulos brancos para a seção no tema escuro */
+}
+
+.App.dark-theme .contact p {
+  color: #ffffff; /* Texto branco para o conteúdo no tema escuro */
+}
+
+
 @media (max-width: 768px) {
   .contact-info a {
     font-size: 1.3rem;
@@ -100,3 +116,4 @@ div {
     transition: all 2s ease-in-out;
   }
 }
+

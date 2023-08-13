@@ -84,20 +84,20 @@
   }
 
   .App.dark-theme .projects-section {
-    background-color: #181A1B; /* Fundo escuro para a seção de contato no tema escuro */
-    color: #ffffff; /* Texto branco no tema escuro */
+    background-color: #181A1B; 
+    color: #ffffff; 
   }
   
   .App.dark-theme .projects-section h3 {
-    color: #ffffff; /* Títulos brancos para a seção no tema escuro */
+    color: #ffffff; 
   }
   
   .App.dark-theme .projects-section p {
-    color: #ffffff; /* Texto branco para o conteúdo no tema escuro */
+    color: #ffffff; 
   }
 
   .App.dark-theme .project-card-1 {
-    background-color: #333333;
+    background-color: #222222;
   }
   
   @media (max-width: 768px) {

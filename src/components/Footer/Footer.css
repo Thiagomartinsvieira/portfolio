@@ -1,4 +1,3 @@
-/* Footer.css */
 #footer {
   background-color: #333;
   color: white;
@@ -36,8 +35,8 @@
 }
 
 .App.dark-theme #footer {
-  background-color: #181A1B; /* Fundo escuro para a seção de contato no tema escuro */
-  color: #ffffff; /* Texto branco no tema escuro */
+  background-color: #181A1B; 
+  color: #ffffff; 
 }
 
 

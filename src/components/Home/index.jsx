@@ -13,7 +13,7 @@ import '../../assets/html5.svg'
 function Home() {
   return (
     <div>
-      <section id="home" className='home'>
+      <section id="home">
         <img
           src="https://avatars.githubusercontent.com/u/111084586?v=4"
           alt=""

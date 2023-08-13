@@ -39,11 +39,9 @@ strong {
   margin: 10%;
 }
 
-/* Contact.css */
-/* Estilos para o tema escuro */
 .App.dark-theme .about {
-  background-color: #333333; /* Fundo escuro para a seção de contato no tema escuro */
-  color: #ffffff; /* Texto branco no tema escuro */
+  background-color: #222222; 
+  color: #ffffff; 
 }
 
 @media (max-width: 1250px) and (min-width: 768px) {

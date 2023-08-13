@@ -15,9 +15,8 @@ function App() {
     setIsDarkTheme(!isDarkTheme)
   }
 
-  // Defina a cor de fundo do body com base no tema atual
   useEffect(() => {
-    document.body.style.backgroundColor = isDarkTheme ? '#333333' : '#ffffff'
+    document.body.style.backgroundColor = isDarkTheme ? '#222222' : '#ffffff'
   }, [isDarkTheme])
 
   return (

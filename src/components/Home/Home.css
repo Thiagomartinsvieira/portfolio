@@ -93,15 +93,13 @@ section {
   cursor: pointer;
 }
 
-/* Contact.css */
-/* Estilos para o tema escuro */
 .App.dark-theme .home {
-  background-color: #181A1B; /* Fundo escuro para a seção de contato no tema escuro */
-  color: #ffffff; /* Texto branco no tema escuro */
+  background-color: #181A1B; 
+  color: #ffffff;
 }
 
 .App.dark-theme .home h1{
-  color: #ffffff; /* Títulos brancos para a seção no tema escuro */
+  color: #ffffff; 
 }
 
 .App.dark-theme .home h2 {
@@ -109,14 +107,12 @@ section {
 }
 
 .App.dark-theme p {
-  color: #ffffff; /* Texto branco para o conteúdo no tema escuro */
+  color: #ffffff; 
 }
 
 .App.dark-theme a {
-  color: #ffffff; /* Texto branco para o conteúdo no tema escuro */
+  color: #ffffff; 
 }
-
-
 
 @media screen and (max-width: 768px) {
   .my-img {

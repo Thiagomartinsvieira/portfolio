@@ -4,11 +4,7 @@ function About() {
   return (
     <section id="about" className="about">
       <article className="container-about">
-        <img
-          className="img-about"
-          src="https://img.freepik.com/vetores-gratis/hacker-operando-uma-ilustracao-do-icone-dos-desenhos-animados-laptop-conceito-de-icone-de-tecnologia-isolado-estilo-flat-cartoon_138676-2387.jpg"
-          alt=""
-        />
+        <img className="img-about" src="src/assets/hacker.png" alt="" />
 
         <h2 className="about-me">About Me</h2>
 

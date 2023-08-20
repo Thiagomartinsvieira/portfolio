@@ -23,7 +23,7 @@ function App() {
     <div className={`App ${isDarkTheme ? 'dark-theme' : ''}`}>
       <BrowserRouter>
         <Nav handleThemeToggle={handleThemeToggle} isDarkTheme={isDarkTheme} />
-        <Home />
+        <Home handleThemeToggle={handleThemeToggle} isDarkTheme={isDarkTheme} />
         <About />
         <Projects />
         <Contact />

@@ -8,12 +8,14 @@ import {
   SiNextdotjs,
 } from 'react-icons/si'
 import './Home.css'
-import '../../assets/html5.svg'
 
-function Home() {
+function Home({ isDarkTheme }) {
+  const nextJsColor = isDarkTheme ? '#ffffff' : '#000000'
+  console.log(isDarkTheme)
+
   return (
     <div>
-      <section id="home" className='home'>
+      <section id="home" className="home">
         <img
           src="https://avatars.githubusercontent.com/u/111084586?v=4"
           alt=""
@@ -62,7 +64,7 @@ function Home() {
                 <SiReact size={40} color="#61DAFB" />
               </li>
               <li className="icon-item">
-                <SiNextdotjs size={40} color="#000000" />
+                <SiNextdotjs size={40} color={nextJsColor} />
               </li>
             </ul>
           </div>

@@ -66,6 +66,10 @@
     color: #999;
     margin-bottom: 10px;
   }
+
+  .project-stack svg {
+    margin-right: 6px;
+  }
   
   .project-links a {
     display: inline-block;

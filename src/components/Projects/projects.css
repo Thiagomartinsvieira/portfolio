@@ -83,6 +83,10 @@
     background-color: #f0f0f0;
   }
 
+  .App.dark-theme .project-links a:hover {
+    background-color: #f0f0f08d;
+  }
+
   .App.dark-theme .projects-section {
     background-color: #181A1B; 
     color: #ffffff; 

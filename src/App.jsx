@@ -11,9 +11,22 @@ import Contact from './components/Contact'
 function App() {
   const [isDarkTheme, setIsDarkTheme] = useState(false)
 
-  const handleThemeToggle = () => {
-    setIsDarkTheme(!isDarkTheme)
+  const saveThemePreference = (isDark) => {
+    localStorage.setItem('isDarkTheme', JSON.stringify(isDark))
   }
+
+  const handleThemeToggle = () => {
+    const newIsDarkTheme = !isDarkTheme
+    setIsDarkTheme(newIsDarkTheme)
+    saveThemePreference(newIsDarkTheme)
+  }
+
+  useEffect(() => {
+    const storedTheme = localStorage.getItem('isDarkTheme')
+    if (storedTheme) {
+      setIsDarkTheme(JSON.parse(storedTheme))
+    }
+  }, [])
 
   useEffect(() => {
     document.body.style.backgroundColor = isDarkTheme ? '#222222' : '#ffffff'

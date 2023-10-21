@@ -31,25 +31,29 @@ function Projects() {
                     href="https://tickets-project-1f300.web.app/"
                     rel="noreferrer"
                   >
-                    <img src="src/assets/incident-management.png" alt="website" />
+                    <img
+                      src="src/assets/incident-management.png"
+                      alt="website"
+                    />
                   </a>
                 </div>
                 <div className="project-details">
                   <h3 className="project-name">Incident Management System</h3>
                   <p className="project-description">
-                    "I developed an Incident Management System as part of my journey as a developer. 
-                    Inspired by my experience as a Service Desk Analyst, 
-                    the system offers features such as user registration, 
-                    customer registration, opening, monitoring and resolving tickets, 
-                    user authentication, route protection and a knowledge base with search functionality. 
-                    Additionally, the system allows users to personalize their experience with the addition 
-                    of the long-awaited Dark Mode."
+                    "I developed an Incident Management System as part of my
+                    journey as a developer. Inspired by my experience as a
+                    Service Desk Analyst, the system offers features such as
+                    user registration, customer registration, opening,
+                    monitoring and resolving tickets, user authentication, route
+                    protection and a knowledge base with search functionality.
+                    Additionally, the system allows users to personalize their
+                    experience with the addition of the long-awaited Dark Mode."
                   </p>
                   <div className="project-stack">
                     <p>
                       <SiReact size={30} color="#61DAFB" />
                       <SiJavascript size={30} color="#F7DF1E" />
-                      <SiFirebase size={30} color='#FFA000' />
+                      <SiFirebase size={30} color="#FFA000" />
                     </p>
                   </div>
                   <div className="project-links">

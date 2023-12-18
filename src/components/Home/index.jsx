@@ -6,6 +6,7 @@ import {
   SiCss3,
   SiHtml5,
   SiNextdotjs,
+  SiTailwindcss,
 } from 'react-icons/si'
 import './Home.css'
 
@@ -65,6 +66,9 @@ function Home({ isDarkTheme }) {
               </li>
               <li className="icon-item">
                 <SiNextdotjs size={40} color={nextJsColor} />
+              </li>
+              <li className="icon-item">
+                <SiTailwindcss size={40} color="#38B2AC" />
               </li>
             </ul>
           </div>

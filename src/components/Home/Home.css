@@ -51,6 +51,7 @@ section {
 }
 
 .skills {
+  flex-direction: column;
   align-items: center;
   bottom: 0;
   display: flex;

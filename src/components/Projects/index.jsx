@@ -7,7 +7,9 @@ import {
   SiHtml5,
   SiJavascript,
   SiNetlify,
+  SiNextdotjs,
   SiReact,
+  SiTailwindcss,
   SiTypescript,
   SiVercel,
 } from 'react-icons/si'
@@ -24,6 +26,47 @@ function Projects() {
               development to flow smoothly. 🧩
             </h3>
             <div className="projects-grid">
+              <div className="project-card project-card-1">
+                <div className="project-image">
+                  {/* <a target="_self" href="" rel="noreferrer"> */}
+                  <img src="src/assets/afc_richmond1.png" alt="website" />
+                  {/* </a> */}
+                </div>
+                <div className="project-details">
+                  <h3 className="project-name">
+                    AFC Richmond official website (in progress)
+                  </h3>
+                  <p className="project-description">
+                    "Developing the "official" AFC Richmond page, dive in
+                    creating a unique digital experience, driven by for the
+                    engaging narrative of the Ted Lasso series. With Next.js,
+                    React.js, Tailwind CSS and TypeScript, shape an online space
+                    that captures the magic of English football. This project,
+                    still in progress, reflects my passion for web development.
+                    Every line of code is a tribute to the trainer's journey of
+                    American football in the series. Constantly evolving, the
+                    AFC Richmond will come to digital life under my dedication
+                    and web development skills."
+                  </p>
+                  <div className="project-stack">
+                    <p>
+                      <SiNextdotjs size={30} />
+                      <SiReact size={30} color="#61DAFB" />
+                      <SiTypescript size={30} color="#007ACC" />
+                      <SiTailwindcss size={30} color="#38BDF8" />
+                    </p>
+                  </div>
+                  <div className="project-links">
+                    <a
+                      target="_blank"
+                      href="https://github.com/Thiagomartinsvieira/afc-richmond"
+                      rel="noreferrer"
+                    >
+                      code <SiGithub />
+                    </a>
+                  </div>
+                </div>
+              </div>
               <div className="project-card project-card-1">
                 <div className="project-image">
                   <a

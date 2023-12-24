@@ -14,8 +14,8 @@ strong {
 }
 
 .img-about {
-  height: 40rem;
-  width: 30rem;
+  height: auto;
+  width: 40rem;
   justify-content: center;
   float: left;
   margin-right: 1rem;
@@ -25,9 +25,12 @@ strong {
   color: #147efb;
   font-size: 1.7rem;
   font-weight: 700;
-  margin-bottom: 1rem;
+  margin-bottom: -7rem;
+  margin-right: 10rem;
   text-transform: uppercase;
   text-align: center;
+  align-items: center;
+  justify-content: center;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -37,6 +40,9 @@ strong {
   font-weight: 500;
   line-height: 1.5;
   margin: 10%;
+  justify-items: center;
+  align-items: center;
+  text-align: center;
 }
 
 .App.dark-theme .about {
@@ -48,6 +54,16 @@ strong {
   .text-side-p {
     margin-right: 0;
     margin-left: 0;
+  }
+
+  .img-about {
+    height: auto;
+    width: 40rem;
+  }
+
+  .about-me {  
+    margin-bottom: 1rem;
+    margin-right: 0;
   }
 }
 
@@ -70,7 +86,7 @@ strong {
   }
 
   .img-about {
-    height: 50vh;
+    height: auto;
     width: 100vw;
     max-width: 25rem;
     margin: 1px;

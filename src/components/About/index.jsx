@@ -10,16 +10,21 @@ function About() {
 
         <p className="text-side-p">
           Hello, I'm <strong>Thiago Martins</strong>, a{' '}
-          <strong>front-end developer</strong> passionate about technology,
-          looking for opportunities to apply my knowledge and improve skills.
-          Although I don't have experience in this field, I've been working for
-          two years as a Service Desk Analyst in the IT market. Despite the lack
-          of academic training, I seek knowledge on my own, take courses, and
-          develop personal projects. I maintain a daily study routine and I am
-          determined to face challenges and grow professionally. I am focused,
-          dedicated, and eager to contribute to challenging projects.
+          <strong>front-end developer</strong> passionate about technology. With
+          two years of project experience, I stand out for my dedication to
+          self-taught learning.
           <br />
-          Thank you for your attention and the opportunity!
+          Specializing in React, NextJS, Javascript, Typescript and Tailwind
+          CSS, I'm ready to create engaging interfaces and intuitive user
+          experiences. My ability to lead projects, both independently and in a
+          team, is backed by solid knowledge in version control with Git and
+          GitHub.
+          <br />
+          Determined to face challenges and grow professionally, I am open to
+          opportunities that allow me to apply my knowledge and contribute to
+          innovative projects.
+          <br />
+          Thank you for your attention!
         </p>
       </article>
     </section>

@@ -28,9 +28,13 @@ function Projects() {
             <div className="projects-grid">
               <div className="project-card project-card-1">
                 <div className="project-image">
-                  {/* <a target="_self" href="" rel="noreferrer"> */}
-                  <img src="src/assets/afc_richmond1.png" alt="website" />
-                  {/* </a> */}
+                  <a
+                    target="_blank"
+                    href="https://afc-richmond.vercel.app/"
+                    rel="noreferrer"
+                  >
+                    <img src="src/assets/afc_richmond1.png" alt="website" />
+                  </a>
                 </div>
                 <div className="project-details">
                   <h3 className="project-name">
@@ -63,6 +67,13 @@ function Projects() {
                       rel="noreferrer"
                     >
                       code <SiGithub />
+                    </a>
+                    <a
+                      target="_blank"
+                      href="https://site-de-passagens.vercel.app/"
+                      rel="noreferrer"
+                    >
+                      Deploy <SiVercel color="#000000" />
                     </a>
                   </div>
                 </div>

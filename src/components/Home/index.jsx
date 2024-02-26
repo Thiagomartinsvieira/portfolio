@@ -1,4 +1,4 @@
-import { FaGithub, FaLinkedin } from 'react-icons/fa'
+import { FaBootstrap, FaGithub, FaLinkedin } from 'react-icons/fa'
 import {
   SiTypescript,
   SiJavascript,
@@ -7,6 +7,13 @@ import {
   SiHtml5,
   SiNextdotjs,
   SiTailwindcss,
+  SiRedux,
+  SiJest,
+  SiSass,
+  SiMarkdown,
+  SiLinux,
+  SiGit,
+  SiGithub,
 } from 'react-icons/si'
 import './Home.css'
 
@@ -46,7 +53,10 @@ function Home({ isDarkTheme }) {
         </div>
 
         <div className="skills">
-          <p>Tech Stack</p>
+          <div className="skills-title">
+            <img src="src/assets/dev.gif" alt="" />
+            <p>Tech Stack</p>
+          </div>
           <div className="logos">
             <ul>
               <li className="icon-item">
@@ -69,6 +79,38 @@ function Home({ isDarkTheme }) {
               </li>
               <li className="icon-item">
                 <SiTailwindcss size={40} color="#38B2AC" />
+              </li>
+            </ul>
+          </div>
+          <div className="logos">
+            <ul>
+              <li className="icon-item">
+                <FaBootstrap size={40} color="#563D7C" />
+              </li>
+              <li className="icon-item">
+                <SiRedux size={40} color="#764ABC" />
+              </li>
+              <li className="icon-item">
+                <SiJest size={40} color="#99425B" />
+              </li>
+              <li className="icon-item">
+                <SiSass size={40} color="#CC6699" />
+              </li>
+              <li className="icon-item">
+                <SiMarkdown size={40} color="#083B4C" />
+              </li>
+            </ul>
+          </div>
+          <div className="logos">
+            <ul>
+              <li className="icon-item">
+                <SiLinux size={40} color={nextJsColor} />
+              </li>
+              <li className="icon-item">
+                <SiGit size={40} color="#F05032" />
+              </li>
+              <li className="icon-item">
+                <SiGithub size={40} color={nextJsColor} />
               </li>
             </ul>
           </div>

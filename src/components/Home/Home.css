@@ -59,6 +59,18 @@ section {
   left: 0;
 }
 
+.skills-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.skills-title img {
+  margin-right: 10px;
+  width: 30px;
+  height: 30px;
+}
+
 .skills p {
   font-size: 1.7rem;
   color: #2d2e32;
@@ -79,7 +91,7 @@ section {
 }
 
 .logos li {
-  margin: 10px;
+  margin: 0 10px;
 }
 
 .icon-item {

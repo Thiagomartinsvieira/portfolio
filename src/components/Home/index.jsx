@@ -14,6 +14,10 @@ import {
   SiLinux,
   SiGit,
   SiGithub,
+  SiNodedotjs,
+  SiExpress,
+  SiFirebase,
+  SiMongodb,
 } from 'react-icons/si'
 import './Home.css'
 
@@ -30,9 +34,9 @@ function Home({ isDarkTheme }) {
           className="my-img"
         />
 
-        <h1>Front-End Developer</h1>
+        <h1>Full Stack Developer</h1>
         <h2>
-          Hello, my name is Thiago Martins and I am a Front-End web developer.👨🏻‍💻
+          Hello, my name is Thiago Martins and I am a Full Stack Developer developer.👨🏻‍💻
         </h2>
 
         <div className="social-media">
@@ -77,13 +81,13 @@ function Home({ isDarkTheme }) {
               <li className="icon-item">
                 <SiNextdotjs size={40} color={nextJsColor} />
               </li>
-              <li className="icon-item">
-                <SiTailwindcss size={40} color="#38B2AC" />
-              </li>
             </ul>
           </div>
           <div className="logos">
             <ul>
+              <li className="icon-item">
+                <SiTailwindcss size={40} color="#38B2AC" />
+              </li>
               <li className="icon-item">
                 <FaBootstrap size={40} color="#563D7C" />
               </li>
@@ -98,6 +102,22 @@ function Home({ isDarkTheme }) {
               </li>
               <li className="icon-item">
                 <SiMarkdown size={40} color="#083B4C" />
+              </li>
+            </ul>
+          </div>
+          <div className="logos">
+            <ul>
+              <li className="icon-item">
+                <SiNodedotjs size={40} color='#339933' />
+              </li>
+              <li className="icon-item">
+                <SiExpress size={40} color="#F05032" />
+              </li>
+              <li className="icon-item">
+                <SiFirebase size={40} color="#FFCA28" />
+              </li>
+              <li className="icon-item">
+                <SiMongodb size={40} color="#47A248" />
               </li>
             </ul>
           </div>

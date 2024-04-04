@@ -36,7 +36,8 @@ function Home({ isDarkTheme }) {
 
         <h1>Full Stack Developer</h1>
         <h2>
-          Hello, my name is Thiago Martins and I am a Full Stack Developer developer.👨🏻‍💻
+          Hello, my name is Thiago Martins and I am a Full Stack Developer
+          developer.👨🏻‍💻
         </h2>
 
         <div className="social-media">
@@ -108,7 +109,7 @@ function Home({ isDarkTheme }) {
           <div className="logos">
             <ul>
               <li className="icon-item">
-                <SiNodedotjs size={40} color='#339933' />
+                <SiNodedotjs size={40} color="#339933" />
               </li>
               <li className="icon-item">
                 <SiExpress size={40} color="#F05032" />

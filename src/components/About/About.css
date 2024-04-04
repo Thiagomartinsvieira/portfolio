@@ -6,95 +6,72 @@ strong {
 
 .about {
   display: flex;
-  flex-direction: row;
+  justify-content: center;
   align-items: center;
   text-align: center;
   background-color: #ffffff;
-  padding-top: 15rem;
+  padding: 5rem 1rem;
+}
+
+.container-about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 800px; /* Reduz a largura máxima para melhorar a legibilidade */
+  width: 100%;
+  gap: 20px;
 }
 
 .img-about {
+  width: auto;
+  max-width: 100%; /* Garante que a imagem não ultrapasse a largura do container */
   height: auto;
-  width: 40rem;
-  justify-content: center;
-  float: left;
-  margin-right: 1rem;
+  margin-bottom: 2rem;
 }
 
 .about-me {
   color: #147efb;
-  font-size: 1.7rem;
+  font-size: 2rem;
   font-weight: 700;
-  margin-bottom: -7rem;
-  margin-right: 10rem;
+  margin: 0;
   text-transform: uppercase;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
   font-family: 'Montserrat', sans-serif;
 }
 
 .text-side-p {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 1.5rem;
-  font-weight: 500;
-  line-height: 1.5;
-  margin: 10%;
-  justify-items: center;
-  align-items: center;
-  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.6;
+  margin: 0 10%;
+  padding: 0 1rem;
+  text-align: justify;
 }
 
 .App.dark-theme .about {
-  background-color: #222222; 
-  color: #ffffff; 
+  background-color: #222222;
+  color: #ffffff;
 }
 
-@media (max-width: 1250px) and (min-width: 768px) {
-  .text-side-p {
-    margin-right: 0;
-    margin-left: 0;
-  }
-
-  .img-about {
-    height: auto;
-    width: 40rem;
-  }
-
-  .about-me {  
-    margin-bottom: 1rem;
-    margin-right: 0;
-  }
-}
-
-@media (max-width: 1100px) and (min-width: 768px) {
+@media (min-width: 768px) {
   .about {
-    display: flex;
-    flex-direction: column;
+    flex-direction: column; /* Altera para coluna em telas maiores */
+    padding: 5rem;
+  }
+
+  .container-about {
+    align-items: center;
+    max-width: 600px; /* Reduz ainda mais a largura máxima para melhorar a legibilidade */
   }
 
   .img-about {
-    justify-content: center;
-    float: unset;
-  }
-}
-
-@media (max-width: 768px) {
-  .about {
-    flex-direction: column;
-    padding-top: 8rem;
-  }
-
-  .img-about {
-    height: auto;
-    width: 100vw;
-    max-width: 25rem;
-    margin: 1px;
-    margin-bottom: 1.5rem;
-    float: none;
+    max-width: 80%; /* Reduz um pouco a largura da imagem para não dominar a tela */
+    margin-bottom: 2rem;
   }
 
   .text-side-p {
     font-size: 1.3rem;
+    max-width: 100%; /* Garante que o texto não ultrapasse a largura do container */
+    margin: 0; /* Remove margem externa */
   }
 }

@@ -32,8 +32,8 @@ function Contact() {
 
         <div className="contact-info">
           <h3>Mail 📧 </h3>
-          <a href="mailto:thiagoalagadico@hotmail.com">
-            thiagoalagadico@hotmail.com
+          <a href="mailto:thiago.devstack@gmail.com">
+            thiago.devstack@gmail.com
           </a>
         </div>
       </section>

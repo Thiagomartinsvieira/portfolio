@@ -6,7 +6,7 @@ function Footer() {
     <footer id="footer">
       <div className="container">
         <div className="footerrc">
-          <h3>2023 - All rights are free - Developed by Thiago Martins</h3>
+          <h3>2024 - All rights are free - Developed by Thiago Martins</h3>
         </div>
         <div className="footerrc-social">
           <a

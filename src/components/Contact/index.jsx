@@ -11,15 +11,10 @@ function Contact() {
               <h4>Contact</h4>
               <h3>Let's talk! </h3>
               <p>
-                {' '}
-                As a front-end developer, I am always open to new contact
-                opportunities. If you're looking for a qualified professional
-                with a passion for creating amazing user interfaces, I'm
-                available to collaborate on challenging projects. Please feel
-                free to contact me to discuss ideas, job opportunities, or any
-                queries related to front-end development. I look forward to
-                working in partnership and contributing to the success of new
-                projects. 🙂
+                As a full stack developer specializing in Java, I am always open to new opportunities. 
+                If you're looking for a qualified professional with expertise in both front-end and back-end development, 
+                I am available to collaborate on challenging projects. Feel free to reach out to discuss ideas, job opportunities, 
+                or any queries related to full stack development. I look forward to partnering on new projects and contributing to their success. 🙂
               </p>
             </div>
           </div>

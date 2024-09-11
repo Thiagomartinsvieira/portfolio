@@ -1,4 +1,4 @@
-import { FaBootstrap, FaGithub, FaLinkedin } from 'react-icons/fa'
+import { FaBootstrap, FaGithub, FaLinkedin, FaJava } from 'react-icons/fa'
 import {
   SiTypescript,
   SiJavascript,
@@ -18,6 +18,14 @@ import {
   SiExpress,
   SiFirebase,
   SiMongodb,
+  SiDocker,
+  SiKubernetes,
+  SiSpring,
+  SiPostgresql,
+  SiMysql,
+  SiAxios,
+  SiHibernate,
+  SiAngular
 } from 'react-icons/si'
 import './Home.css'
 
@@ -120,10 +128,32 @@ function Home({ isDarkTheme }) {
               <li className="icon-item">
                 <SiMongodb size={40} color="#47A248" />
               </li>
+              <li className="icon-item">
+                <FaJava size={40} color="#007396" />
+              </li>
+              <li className="icon-item">
+                <SiSpring size={40} color="#6DB33F" />
+              </li>
             </ul>
+          </div>
+          <div className='logos'>
+          <ul>
+            <li className="icon-item"><SiPostgresql size={40} color="#336791" /></li>
+            <li className="icon-item"><SiMysql size={40} color="#4479A1" /></li>
+            <li className="icon-item"><SiAxios size={40} color="#5A29E4" /></li>
+            <li className="icon-item"><SiHibernate size={40} color="#59666C" /></li>
+            <li className="icon-item"><SiAngular size={40} color="#DD0031" /></li>
+</ul>
+
           </div>
           <div className="logos">
             <ul>
+              <li className="icon-item">
+                <SiDocker size={40} color="#2496ED" />
+              </li>
+              <li className="icon-item">
+                <SiKubernetes size={40} color="#326CE5" />
+              </li>
               <li className="icon-item">
                 <SiLinux size={40} color={nextJsColor} />
               </li>

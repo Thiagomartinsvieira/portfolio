@@ -2,13 +2,18 @@ import React from 'react'
 import './projects.css'
 import {
   SiCss3,
+  SiDocker,
+  SiExpress,
   SiFirebase,
   SiGithub,
   SiHtml5,
   SiJavascript,
+  SiJsonwebtokens,
+  SiMysql,
   SiNetlify,
   SiNextdotjs,
   SiReact,
+  SiSequelize,
   SiTailwindcss,
   SiTypescript,
   SiVercel,
@@ -26,6 +31,53 @@ function Projects() {
               development to flow smoothly. 🧩
             </h3>
             <div className="projects-grid">
+            <div className="project-card project-card-1">
+                <div className="project-image">
+                  <a
+                    target="_blank"
+                    href="https://fullstack-tasks.vercel.app/"
+                    rel="noreferrer"
+                  >
+                    <img src="src/assets/taskmaster.png" alt="website" />
+                  </a>
+                </div>
+                <div className="project-details">
+                  <h3 className="project-name">
+                    Full Stack TaskMaster (in progress)
+                  </h3>
+                  <p className="project-description">
+                    "This project is a Task Management Application built to help users manage tasks efficiently. 
+                    It allows users to create, edit, delete, and list tasks, while ensuring secure user authentication and task management functionalities."
+                  </p>
+                  <div className="project-stack">
+                    <p>
+                      <SiReact size={30} color="#61DAFB" />
+                      <SiTailwindcss size={30} color="#38BDF8" />
+                      <SiExpress size={30} color="#000000" />
+                      <SiJsonwebtokens size={30} color="#000000" />
+                      <SiSequelize size={30} color="#52B0E7" />
+                      <SiDocker size={30} color="#2496ED" />
+                      <SiMysql size={30} color="#4479A1" />
+                    </p>
+                  </div>
+                  <div className="project-links">
+                    <a
+                      target="_blank"
+                      href="https://github.com/Thiagomartinsvieira/fullstack-tasks"
+                      rel="noreferrer"
+                    >
+                      code <SiGithub />
+                    </a>
+                    <a
+                      target="_blank"
+                      href="https://fullstack-tasks.vercel.app/"
+                      rel="noreferrer"
+                    >
+                      Deploy <SiVercel color="#000000" />
+                    </a>
+                  </div>
+                </div>
+              </div>
               <div className="project-card project-card-1">
                 <div className="project-image">
                   <a
@@ -70,7 +122,7 @@ function Projects() {
                     </a>
                     <a
                       target="_blank"
-                      href="https://site-de-passagens.vercel.app/"
+                      href="https://afc-richmond.vercel.app/"
                       rel="noreferrer"
                     >
                       Deploy <SiVercel color="#000000" />

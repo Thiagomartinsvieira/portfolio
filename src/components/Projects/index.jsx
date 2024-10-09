@@ -1,6 +1,7 @@
 import React from 'react'
 import './projects.css'
 import {
+  SiAngular,
   SiCss3,
   SiDocker,
   SiExpress,
@@ -12,8 +13,10 @@ import {
   SiMysql,
   SiNetlify,
   SiNextdotjs,
+  SiPostgresql,
   SiReact,
   SiSequelize,
+  SiSpringboot,
   SiTailwindcss,
   SiTypescript,
   SiVercel,
@@ -32,6 +35,46 @@ function Projects() {
             </h3>
             <div className="projects-grid">
             <div className="project-card project-card-1">
+                <div className="project-image">
+                  <a
+                    target="_blank"
+                    href="https://github.com/Thiagomartinsvieira/rentcars/"
+                    rel="noreferrer"
+                  >
+                    <img src="src/assets/rentcars.png" alt="website" />
+                  </a>
+                </div>
+                <div className="project-details">
+                  <h3 className="project-name">
+                  RentCars (in progress)
+                  </h3>
+                  <p className="project-description">
+                    "
+                    The RentCars project is a web-based car rental application designed to allow users to browse and rent vehicles online. Built with a Spring Boot backend and an Angular frontend, the application supports key functionalities like user registration, vehicle management, and secure authentication using JWT. Users can log in, view available vehicles, and complete the rental process efficiently. The project also implements environment variables to safeguard sensitive data and facilitate configuration management. The goal of RentCars is to provide a seamless, secure, and scalable platform for online car rentals."
+                  </p>
+                  <div className="project-stack">
+                    <p>
+                    <SiAngular size={30} color="#DD0031" />
+                    <SiTailwindcss size={30} color="#38BDF8" />
+                    <SiSpringboot size={30} color="#6DB33F" />
+                    <SiPostgresql size={30} color="#336791" />
+                    <SiJsonwebtokens size={30} color="#000000" />
+                    <SiDocker size={30} color="#2496ED" />
+                    </p>
+                  </div>
+                  <div className="project-links">
+                    <a
+                      target="_blank"
+                      href="https://github.com/Thiagomartinsvieira/rentcars/"
+                      rel="noreferrer"
+                    >
+                      code <SiGithub />
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div className="project-card project-card-1">
                 <div className="project-image">
                   <a
                     target="_blank"
@@ -78,6 +121,7 @@ function Projects() {
                   </div>
                 </div>
               </div>
+              
               <div className="project-card project-card-1">
                 <div className="project-image">
                   <a

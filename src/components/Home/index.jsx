@@ -25,7 +25,7 @@ import {
   SiMysql,
   SiAxios,
   SiHibernate,
-  SiAngular
+  SiAngular,
 } from 'react-icons/si'
 import './Home.css'
 
@@ -45,7 +45,7 @@ function Home({ isDarkTheme }) {
         <h1>Full Stack Developer</h1>
         <h2>
           Hello, my name is Thiago Martins and I am a Full Stack Developer
-          developer.👨🏻‍💻
+          .👨🏻‍💻
         </h2>
 
         <div className="social-media">
